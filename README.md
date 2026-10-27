@@ -1,4 +1,4 @@
-# Cloudsoftera Customer Feedback Portal — Starter Kit
+Customer Feedback Portal — Starter Kit
 
 A responsive feedback form concept for Cloudsoftera, with conditional follow-up questions and a Spring Boot + MariaDB/MySQL persistence starter.
 
@@ -23,6 +23,5 @@ mvn spring-boot:run
 The API endpoint is `POST http://localhost:8080/api/feedback`.
 
 ## Important integration notes
-- This is a standalone starter, not a deployment to `one.cloudsoftera.com`.
 - Before production, add authentication/authorization if feedback is internal, rate limiting, spam protection, HTTPS, retention policy, and appropriate privacy notice/consent.
-- Confirm the exact names of Cloudsoftera products before publishing. The service list is editable in the frontend.
+
